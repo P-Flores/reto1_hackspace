@@ -1,0 +1,40 @@
+{
+    "00" : {
+        "00" : {
+            "00" : {
+                "Carlos" : {
+                    "mensaje" : "Hola =)",
+                    "destinatario" : "Angel"
+                },
+                "Miguel" :{
+                    "mensaje" : "Ya llegaste",
+                    "destinatario" : "Angel"
+                }
+            }
+        }
+    },
+  "01" : {
+    "10" : {
+            "13" : {
+                "Juan" : {
+                    "mensaje" : "¿Cual es tu segundo nombre?",
+                    "destinatario" : "Ximena"
+                },
+                "Xoana" :{
+                    "mensaje" : "¿Vienes seguido por aqui?",
+                    "destinatario" : "GianCarlos"
+                }
+            }
+        }
+  },
+  "02" : {
+    "30" : {
+            "40" : {
+                "Camilo" :{
+                    "mensaje" : "¿Profesor tengo algunas preguntas?",
+                    "destinatario" : "Juan Miguel"
+                }
+            }
+        }
+  }
+}
