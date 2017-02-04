@@ -76,8 +76,6 @@ $().ready(function() {
 
 
   //ASINCRONO
-
-
 function getAutoCompleteElements(substring){
   console.log(substring);
 }
@@ -124,12 +122,9 @@ function loadForm(data){
   });
 }
 function setDataIntoHTML(data){
-  //USAR CONSOLE 
-  //console.log(data);
-  //O LLENAR EN FORMULARIO
-$("#marcado1").val(data.marcado1);
-$("#entrada1").val(data.entrada1);
-$("#mensaje1").val(data.mensaje1);
+$("#marcado1").val(data.entrada.hora+":"+data.entrada.minuto);
+$("#entrada1").val(data.llegada.hora+":"+data.llegada.minuto);
+$("#mensaje1").val(data.mensaje);
 }
 
   function getOrigin(){
